@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="fb8dd20b703c4492acd71f9a8984af86" Name="Diagram1" ZoomLevel="21">
+        <EntityTypeShape EntityType="K3Model.AIR" Width="1.5" PointX="3" PointY="9.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="K3Model.AIRROUTE" Width="1.5" PointX="3" PointY="2.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="K3Model.COST" Width="1.5" PointX="5.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="K3Model.IVDTL" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="K3Model.IVHDR" Width="1.5" PointX="9.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="K3Model.JOB" Width="1.5" PointX="0.75" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="K3Model.REVENUE" Width="1.5" PointX="11.75" PointY="0.75" IsExpanded="true" />
+        <AssociationConnector Association="K3Model.FK_JOB_AIR" ManuallyRouted="false" />
+        <AssociationConnector Association="K3Model.FK_JOB_AIRROUTE" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="K3Model.JOBOTHER" Width="1.5" PointX="3" PointY="35.125" />
+        <AssociationConnector Association="K3Model.FK_JOB_JOBOTHER" />
+        <EntityTypeShape EntityType="K3Model.IVJOB" Width="1.5" PointX="12" PointY="27.125" />
+        <AssociationConnector Association="K3Model.FK_IVHDR_IVJOB" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="82b5ac395592423c9da6bdc5c4f3b336" Name="Diagram1">
+        <EntityTypeShape EntityType="K35Model.TB_AWB" Width="1.5" PointX="6" PointY="30.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="K35Model.TB_BILLING" Width="1.5" PointX="3" PointY="35" IsExpanded="true" />
+        <EntityTypeShape EntityType="K35Model.TB_BILLING_REVENUE_REL" Width="1.5" PointX="18.75" PointY="36.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="K35Model.TB_CHARGE_CODE" Width="1.5" PointX="14.25" PointY="39.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="K35Model.TB_COMPANY" Width="1.5" PointX="0.75" PointY="33.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="K35Model.TB_COST" Width="1.5" PointX="9" PointY="35" IsExpanded="true" />
+        <EntityTypeShape EntityType="K35Model.TB_CURRENCY" Width="1.5" PointX="0.75" PointY="24.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="K35Model.TB_JOB" Width="1.5" PointX="11.25" PointY="23.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="K35Model.TB_JOB_STATION_REL" Width="1.5" PointX="13.5" PointY="33.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="K35Model.TB_LOCATION" Width="1.5" PointX="0.75" PointY="18" IsExpanded="true" />
+        <EntityTypeShape EntityType="K35Model.TB_REVENUE" Width="1.5" PointX="16.5" PointY="33" IsExpanded="true" />
+        <EntityTypeShape EntityType="K35Model.TB_STATION" Width="1.5" PointX="3" PointY="26.75" IsExpanded="true" />
+        <AssociationConnector Association="K35Model.FK_AWB_FLIGHT1_CARRIER" ManuallyRouted="false" />
+        <AssociationConnector Association="K35Model.FK_AWB_FLIGHT1_DESTINATION" ManuallyRouted="false" />
+        <AssociationConnector Association="K35Model.FK_AWB_FLIGHT1_ORIGIN" ManuallyRouted="false" />
+        <AssociationConnector Association="K35Model.FK_AWB_FLIGHT2_CARRIER" ManuallyRouted="false" />
+        <AssociationConnector Association="K35Model.FK_AWB_FLIGHT2_DESTINATION" ManuallyRouted="false" />
+        <AssociationConnector Association="K35Model.FK_AWB_FLIGHT3_CARRIER" ManuallyRouted="false" />
+        <AssociationConnector Association="K35Model.FK_AWB_FLIGHT3_DESTINATION" ManuallyRouted="false" />
+        <AssociationConnector Association="K35Model.FK_AWB_GROUND_HANDLING_AGENT" ManuallyRouted="false" />
+        <AssociationConnector Association="K35Model.FK_AWB_ISSUE_BY" ManuallyRouted="false" />
+        <AssociationConnector Association="K35Model.FK_AWB_JOB" ManuallyRouted="false" />
+        <AssociationConnector Association="K35Model.FK_BILLING_BILL_TO" ManuallyRouted="false" />
+        <AssociationConnector Association="K35Model.FK_BILLING_CURRENCY" ManuallyRouted="false" />
+        <AssociationConnector Association="K35Model.FK_BILLING_JOB" ManuallyRouted="false" />
+        <AssociationConnector Association="K35Model.FK_BILLING_REVENUE_REL_BILLING" ManuallyRouted="false" />
+        <AssociationConnector Association="K35Model.FK_BILLING_STATION" ManuallyRouted="false" />
+        <AssociationConnector Association="K35Model.FK_BILLING_REVENUE_REL_REVENUE" ManuallyRouted="false" />
+        <AssociationConnector Association="K35Model.FK_COST_CHARGE_CODE" ManuallyRouted="false" />
+        <AssociationConnector Association="K35Model.FK_REVENUE_CHARGE_CODE" ManuallyRouted="false" />
+        <AssociationConnector Association="K35Model.FK_COST_COMPANY" ManuallyRouted="false" />
+        <AssociationConnector Association="K35Model.FK_JOB_COLOADER" ManuallyRouted="false" />
+        <AssociationConnector Association="K35Model.FK_JOB_CONSIGNEE" ManuallyRouted="false" />
+        <AssociationConnector Association="K35Model.FK_JOB_CUSTOMER" ManuallyRouted="false" />
+        <AssociationConnector Association="K35Model.FK_JOB_DOC_TURNOVER_COMPANY" ManuallyRouted="false" />
+        <AssociationConnector Association="K35Model.FK_JOB_LOCAL_AGENT" ManuallyRouted="false" />
+        <AssociationConnector Association="K35Model.FK_JOB_NOTIFY" ManuallyRouted="false" />
+        <AssociationConnector Association="K35Model.FK_JOB_NOTIFY2" ManuallyRouted="false" />
+        <AssociationConnector Association="K35Model.FK_JOB_OPERATING_PARTY" ManuallyRouted="false" />
+        <AssociationConnector Association="K35Model.FK_JOB_OVERSEAS_AGENT" ManuallyRouted="false" />
+        <AssociationConnector Association="K35Model.FK_JOB_SHIPPER" ManuallyRouted="false" />
+        <AssociationConnector Association="K35Model.FK_JOB_THIRD_PARTY" ManuallyRouted="false" />
+        <AssociationConnector Association="K35Model.FK_JOB_TRUCKER" ManuallyRouted="false" />
+        <AssociationConnector Association="K35Model.FK_REVENUE_COMPANY" ManuallyRouted="false" />
+        <AssociationConnector Association="K35Model.FK_STATION_COMPANY" ManuallyRouted="false" />
+        <AssociationConnector Association="K35Model.FK_COST_JOB" ManuallyRouted="false" />
+        <AssociationConnector Association="K35Model.FK_COST_PARENT" ManuallyRouted="false" />
+        <AssociationConnector Association="K35Model.FK_COST_STATION" ManuallyRouted="false" />
+        <AssociationConnector Association="K35Model.FK_COST_SUB_HOUSE" ManuallyRouted="false" />
+        <AssociationConnector Association="K35Model.FK_JOB_CURRENCY" ManuallyRouted="false" />
+        <AssociationConnector Association="K35Model.FK_STATION_CURRENCY" ManuallyRouted="false" />
+        <AssociationConnector Association="K35Model.FK_JOB_DESTINATION_LOCATION" ManuallyRouted="false" />
+        <AssociationConnector Association="K35Model.FK_JOB_GATEWAY" ManuallyRouted="false" />
+        <AssociationConnector Association="K35Model.FK_JOB_ORIGIN_LOCATION" ManuallyRouted="false" />
+        <AssociationConnector Association="K35Model.FK_JOB_PARENT" ManuallyRouted="false" />
+        <AssociationConnector Association="K35Model.FK_JOB_POR_LOCATION" ManuallyRouted="false" />
+        <AssociationConnector Association="K35Model.FK_JOB_STATION" ManuallyRouted="false" />
+        <AssociationConnector Association="K35Model.FK_JOB_STATION_REL_JOB" ManuallyRouted="false" />
+        <AssociationConnector Association="K35Model.FK_REVENUE_JOB" ManuallyRouted="false" />
+        <AssociationConnector Association="K35Model.FK_REVENUE_SUB_HOUSE" ManuallyRouted="false" />
+        <AssociationConnector Association="K35Model.FK_JOB_STATION_REL_STATION" ManuallyRouted="false" />
+        <AssociationConnector Association="K35Model.FK_STATION_AIRPORT" ManuallyRouted="false" />
+        <AssociationConnector Association="K35Model.FK_STATION_SEAPORT" ManuallyRouted="false" />
+        <AssociationConnector Association="K35Model.FK_STATION_KLN_STATION" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
